@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 14px;
+}
+a {
+
+}
+.container {
+  width: 1600;
+  margin: auto;
+  border: 3px solid black;
+}
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  height: 6.25vw;
+  padding-left: 6.42rem;
+  padding-right: 6.42rem;
+}
+.head-row-1, .head-row-2 {
+  display: flex;
+  align-items: center;
+  height: 6.25vw;
+}
+.head-row-1 {
+  justify-content: flex-start;
+  width:33%;
+}
+.head-row-2 {
+  justify-content: flex-end;
+  width:66%;
+}
+a.logo {
+  font-family: "Open Sans";
+  font-size: 36px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 36px;
+  padding-left: 0.5rem;
+  text-decoration: none;
+  color: #7F7F7F;
+}
+.logo-img {
+  display: flex;
+  width: 2.57rem;
+  height: 2.57rem;
+  font-size: 2.57rem;
+  color: #7F7F7F;
+}
+.meniu-img {
+  display: flex;
+  width: 2.5rem;
+  height: 1.64rem;
+}
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+#navigation li {
+      display: inline-block;
+  }
+#navigation a {
+      width: 3.125rem;
+      height: 1.25rem;
+      color: black;
+      margin-right: 1rem;
+      text-decoration: none;
+      font-family: Open Sans;
+      color: #7F7F7F;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 19px;
+      font-size: 14px;
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 3.71rem;
+    width: 11.36rem;
+    background-color: #FF65C2;
+    border-radius: 50px;
+    margin-right: 2.36rem;
+  }
+  .btn-txt {
+      padding-top: 1.18rem;
+      color: white;
+      height: 3.71rem;
+      width: 11.36rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 19px;
+      font-size: 14px;
+      text-align: center;
+      display: inline-block;
+      font-family: "Open Sans";
+      text-decoration: none;
+  }
+.body-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 58.29rem;
+  background: rgba(55,55,55, 0.6) url("../Pics/background.jpg") no-repeat;
+  background-size: 100%;
+}
+.search-bar {
+  display: flex;
+  width: 52.57rem;
+  height: 5rem;
+  border: 3px solid red;
+}
+.fb-tw-in {
+  margin-top: 4.71rem;
+  margin-left: 0.71rem;
+  margin-right: 0.71rem;
+}
